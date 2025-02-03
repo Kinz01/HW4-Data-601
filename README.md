@@ -1,2 +1,3 @@
 # HW4-Data-601
-This contains the PDF of the report for HW4 as well as the jupyter notebook containing the code.
+This contains the PDF of the report for HW4 as well as the jupyter notebook containing the code. 
+The dataset was loaded and cleaned, with columns containing more than 40% missing values were dropped, including ENERGY STAR Score. This would make it difficult to perform the student t-test as it was not factored into the data analysis. Another feature was used for the t-test. Regular Expression (Regex) were used to modify and standardize different columns in the dataset. Numerical values were extracted using regex, the postal codes were standardized to the Canadian format and relevant text were extracted from the address and property name columns of the dataset. In exploring the data, insight on the trends of energy use in different years and by different property types.
